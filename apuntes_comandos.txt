@@ -9,4 +9,5 @@ dotnet aspnet-codegenerator controller -name ClientesController -async -api -m C
 
 
 
-dotnet add package MySql.Data.EntityFrameworkCore --version 8.0.22
+dotnet add package MySql.EntityFrameworkCore
+//Server=localhost;Database=db_empresa;User=root;Password=Admin@123;Port=3306;
